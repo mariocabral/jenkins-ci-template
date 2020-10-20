@@ -19,7 +19,7 @@ RUN chmod +x /opt/bin/*
 COPY jobs/seed/seed-job.groovy /usr/share/jenkins/ref/init.groovy.d/
 
 
-RUN chown jenkins: $(find /usr/share/jenkins/ref -type f -name '*.groovy')
+RUN echo "chown jenkins: $(find /usr/share/jenkins/ref -type f -name '*.groovy')"
 
 # drop back to the regular jenkins user - good practice
 USER jenkins
