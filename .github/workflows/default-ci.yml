@@ -30,7 +30,7 @@ jobs:
           # 
           dockerfile: Dockerfile # default is Dockerfile
           # 
-          lint: dockerlint # optional, default is dockerlint
+          lint: hadolint # optional, default is dockerlint
           # 
           dockerlabelvalidate: yes # optional, default is yes
       
