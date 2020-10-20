@@ -2,6 +2,19 @@
 Template to have a Jenkins server with some examples using pipeline.
 
 
+## Use
+
+
+```bash
+git clone https://github.com/mariocabral/jenkins-ci-template.git
+cd jenkins-ci-template
+make docker-lint
+make docker-build
+make docker-start
+```
+
+After that visit http://localhost:8080/ 
+
 
 ## Jenkins Theme
 
@@ -32,3 +45,15 @@ unclassified:
         url: "http://localhost:8080/userContent/favicon.ico"
 ```
 **Note:** If the jenkins domain change, should be update the url used in the theme configuration.
+
+
+## DLS docs
+
+Reference [page](https://jenkinsci.github.io/job-dsl-plugin/#path/pipelineJob) of DSL plugin.
+
+## Credits
+
+- [jenkinsci/docker](https://github.com/jenkinsci/docker)
+- [docker-jenkins-dsl-ready](https://github.com/thomasleveil/docker-jenkins-dsl-ready)
+- [jenkins-job-dsl](https://github.com/binario200/jenkins-job-dsl)
+- [project-examples](https://github.com/jfrog/project-examples)

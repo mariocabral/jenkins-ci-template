@@ -108,3 +108,15 @@ material-theme
 dark-theme
 simple-theme-plugin
 solarized-theme
+extensible-choice-parameter
+build-with-parameters
+ivy
+artifactory
+convert-to-pipeline
+envinject-api
+envinject
+built-on-column
+jenkins-multijob-plugin
+job-dsl
+job-import-plugin
+jqs-monitoring
